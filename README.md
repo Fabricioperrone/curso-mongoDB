@@ -42,3 +42,40 @@ db.alunos.drop()
 ```
 - Remove collection do database.
 
+# Manipulação do banco, consultas e comandos:
+
+Comando find()
+
+Sintaxe:
+```
+db.alunos.find()
+```
+
+Esse comando retorna um arquivo JSON como este:
+
+![image](https://github.com/Fabricioperrone/curso-mongoDB/assets/69866913/7d4a42e9-f58c-4eab-9b57-b16b8e2ad0f3)
+
+ 
+A ID destaca é criada automaticamente pelo mongo.
+
+
+
+Listando apenas um registro.
+
+Sintaxe:
+```
+Db.alunos.findOne()
+```
+ ![image](https://github.com/Fabricioperrone/curso-mongoDB/assets/69866913/92f3ad6f-b269-4bb0-83a5-a57dccd936c3)
+
+
+Identando a busca.
+
+Sintaxe:
+```
+Db.alunos.find().pretty()
+```
+![image](https://github.com/Fabricioperrone/curso-mongoDB/assets/69866913/16bd5a94-f610-465d-9fc3-c151556f658d)
+
+
+
