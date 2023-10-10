@@ -78,4 +78,11 @@ Db.alunos.find().pretty()
 ![image](https://github.com/Fabricioperrone/curso-mongoDB/assets/69866913/16bd5a94-f610-465d-9fc3-c151556f658d)
 
 
+# Operadores lógicos de comparação
+
+Seis principais operadores lógicos:
+
+![image](https://github.com/Fabricioperrone/curso-mongoDB/assets/69866913/562553fe-ad34-499e-bb7b-33d716222e88)
+
+
 
